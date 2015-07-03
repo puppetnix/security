@@ -5,3 +5,5 @@ RSpec.configure do |c|
   c.manifest_dir = File.join(fixture_path, 'manifests')
   c.environmentpath = File.join(Dir.pwd, 'spec')
 end
+require 'rubygems'
+require 'puppetlabs_spec_helper/module_spec_helper'

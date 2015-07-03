@@ -1,6 +1,5 @@
 fixtures:
-  repositories:
-      apt: "https://github.com/puppetlabs/puppetlabs-apt.git"
-      stdlib: "git://github.com/puppetlabs/puppetlabs-stdlib"
   symlinks:
-      security: "#{source_dir}"
+    "security": "#{source_dir}"
+  repositories:
+    stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
