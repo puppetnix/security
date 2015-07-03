@@ -6,7 +6,7 @@ rvm:
 before_install: rm Gemfile.lock || true
 script:
  - "gem list"
- - "bundle exec rake lint"
+
  - "bundle exec rake template"
  - "bundle exec rake spec"
 env:
