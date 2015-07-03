@@ -6,9 +6,9 @@ rvm:
 before_install: rm Gemfile.lock || true
 script:
  - "gem list"
-
- - "bundle exec rake template"
- - "bundle exec rake spec"
+ - "bundle exec rake lint"
+ 
+ - "bundle exec rspec"
 env:
   - PUPPET_VERSION="~> 2.7.0"
   - PUPPET_VERSION="~> 3.1.0"
