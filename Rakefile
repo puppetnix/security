@@ -37,5 +37,4 @@ desc "Run syntax, lint, and spec tests."
 task :test => [
   :spec,
   :syntax,
-  :metadata,
  ]
